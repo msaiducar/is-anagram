@@ -14,12 +14,17 @@ Write a Java program that checks if two texts are anagrams of each other.
 mvn clean package
 ```
 
-After successful build, `./target/beyonnex-io-is-anagram.jar` will be created. 
+After successful build, `./target/is-anagram.jar` file will be created. 
 
 ### Run
 
-TBA.
+Use the application from your terminal providing two texts as arguments.
 
+```bash
+java -jar is-anagram.jar 'help' 'pleh'
+```
+
+The result of the anagram check will be displayed on the terminal.
 
 ### Test
 
